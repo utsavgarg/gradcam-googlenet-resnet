@@ -1,0 +1,3 @@
+[submodule "inception.torch"]
+	path = inception.torch
+	url = https://github.com/soumith/inception.torch.git
