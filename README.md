@@ -15,12 +15,22 @@ Implementation of [grad-cam](https://arxiv.org/abs/1610.02391) for GoogLenet and
   * ```th gcam_googleNet.lua```
 * For ResNet 101
   * ```th gcam_resNet.lua```
+  
+### Sample
 
-###About
+<img src="./cat_dog.jpg" width="250" alt="Input Image">
+<img src="./output/143_googleNet.png" width="250" alt="GoogLenet Grad-CAM">
+<img src="./output/244_resNet.png" width="250" alt="Resnet 101 Grad-CAM">
+* (LTR) Input, GoogLeNet, ResNet
+
+
+### About
 * This repository is a minor modification over the code provided by authors [here](https://github.com/ramprs/grad-cam) to add support for GoogLenet and ResNet-101 architectures, and most files are modifications over the original code provided.
 * GoogLenet architecture and weights taken from [here](https://github.com/soumith/inception.torch.git)
 * ResNet-101 model and image preprocessing are from [here](https://github.com/facebook/fb.resnet.torch)
 
+### Licence
+BSD
 
 
 
