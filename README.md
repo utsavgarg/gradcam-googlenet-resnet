@@ -17,11 +17,9 @@ Implementation of [grad-cam](https://arxiv.org/abs/1610.02391) for GoogLenet and
   * ```th gcam_resNet.lua```
   
 ### Sample
-
-<img src="./cat_dog.jpg" width="250" alt="Input Image">
-<img src="./output/143_googleNet.png" width="250" alt="GoogLenet Grad-CAM">
-<img src="./output/244_resNet.png" width="250" alt="Resnet 101 Grad-CAM">
-* (LTR) Input, GoogLeNet, ResNet
+Input             |  GoogLeNet | ResNet
+:-------------------------:|:-------------------------: |:-------------------------:
+![](./cat_dog.jpg)  |  ![](./output/143_googleNet.png) | ![](./output/244_resNet.png) 
 
 
 ### About
